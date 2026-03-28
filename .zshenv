@@ -25,3 +25,4 @@ export PATH="$HOME/bin:$PATH"
 export VISUAL='emacsclient -c'
 export LESS="--no-init --QUIT-AT-EOF --RAW-CONTROL-CHARS"
 export GIT_CEILING_DIRECTORIES=`find "$PWD" -maxdepth 1 -type d | paste -sd ":" -`
+export ALTERNATE_EDITOR='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'

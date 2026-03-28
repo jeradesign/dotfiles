@@ -63,7 +63,7 @@
 ;; Use *Notes* Buffer which is rememebered between sessions
 (setq initial-buffer-choice 'remember-notes)
 (setq remember-notes-buffer-name "\*scratch\*")
-(setq remember-data-file "emacs-notes.txt")
+(setq remember-data-file "~/emacs-notes.txt")
 (remember-notes)
 
 ;;; Add MELPA as a package source

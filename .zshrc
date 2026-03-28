@@ -21,7 +21,7 @@ RPROMPT='%F{red}%D %*%f'
 
 # Set up aliases
 alias unp='unpushed --walk --tracked --remote /proj'
-alias emacs='emacsclient -c'
+alias emacs='emacsclient -c -q'
 alias port='echo "You mean: brew"'
 alias ows='open /Applications/Xcode.app *.xcworkspace'
 alias opr='open /Applications/Xcode.app *.xcodeproj'
