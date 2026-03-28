@@ -22,10 +22,16 @@ RPROMPT='%F{red}%D %*%f'
 # Set up aliases
 alias unp='unpushed --walk --tracked --remote /proj'
 alias emacs='emacsclient -c'
-alias port='echo "You mean brew."'
+alias port='echo "You mean: brew"'
 alias ows='open /Applications/Xcode.app *.xcworkspace'
 alias opr='open /Applications/Xcode.app *.xcodeproj'
 alias bows='open /Applications/Xcode-beta.app *.xcworkspace'
 alias bopr='open /Applications/Xcode-beta.app *.xcodeproj'
+alias du0='du -d 0 -h * | sort -h'
+alias du0.='du -d 0 -h .* | sort -h'
 
 export CLICOLOR=1
+
+if [[ -f "$HOME/bin/cdproj" ]]; then
+    source $HOME/bin/cdproj
+fi
