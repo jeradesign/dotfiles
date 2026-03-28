@@ -24,3 +24,4 @@ export PATH="$HOME/bin:$PATH"
 # TODO: Should environment for interactive commands go in .zshrc?
 export VISUAL='emacsclient -c'
 export LESS="--no-init --QUIT-AT-EOF --RAW-CONTROL-CHARS"
+export GIT_CEILING_DIRECTORIES=`find "$PWD" -maxdepth 1 -type d | paste -sd ":" -`
